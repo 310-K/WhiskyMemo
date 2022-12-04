@@ -1,0 +1,170 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+
+body {
+  font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bgcolor {
+  background-color: #ea582f;
+}
+
+/* header */
+header {
+  position: fixed;
+  color: #fff;
+  padding: 1.5rem 0;
+  width: 100%;
+  /* height: 3.5rem; */
+  /* border-bottom: 1px solid #ccc; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 2.0rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+#header__list {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+#search{
+  display: block;
+  font-size: 1.0rem;
+  color: #fff;
+}
+/* end__header */
+
+
+/* main */
+main {
+  font-size: 2.0rem;
+  font-family: 'Roboto Slab', serif;
+  padding-top: 4.5rem;
+  text-align: center;
+}
+
+p {
+  font-size: 2.0rem;
+  text-align: center;
+}
+/* end__main */
+
+
+/* form */
+#key {
+  margin-top: 2rem;
+}
+
+input {
+  display: block;
+  margin: 0 auto 2.0rem;
+  padding: 0.5rem 0;
+  width: 70vw;
+  /* width: 95%; */
+  height: 40px;
+  font-size: 1.5rem;
+}
+
+textarea {
+  display: block;
+  width: 70vw;
+  margin: 0 auto 1.5rem;
+  height: 20.0rem;
+  font-size: 1.2rem;
+  /* box-shadow: 3px 3px 3px 3px #555; */
+  background-color: rgb(241, 239, 239);
+}
+/* end__form */
+
+
+
+/* function__btn */
+#function__btn {
+  /* border-top: 1px solid #000000; */
+  display: table; /* 定義 */
+  table-layout: fixed;
+}
+
+#save {
+  font-size: 1.2rem;
+  padding: 0rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+#save:hover {
+  color: #fff;
+  background-color: #ea582f;
+}
+
+#function__btn li {
+  list-style-type: none;
+  border: 1px solid #666;
+  background-color: #fff;
+  display: table-cell; /* 定義 */
+  cursor: pointer;
+  padding: 0.2rem 0.5rem;
+  /* color: #0d7dfd; */
+}
+
+#function__btn li:hover {
+  background: #0d7dfd;
+  color: #fff;
+}
+
+
+/* #key {
+  margin: 0 3%;
+  width: 95%;
+  font-size: 80%;
+  background-color: #e1efff;
+  /* box-shadow: 3px 3px 3px 3px #555; */
+/* }  */
+
+table {
+  margin: 20px 3%;
+  border: 1px solid #8dc3f5;
+  width: 96%;
+}
+th {
+  width: 30%;
+  font-size: 24px;
+  background-color: #d0e7fc;
+  border-bottom: 1px solid #8dc3f5;
+}
+td {
+  font-size: 16px;
+  background-color: rgb(241, 239, 239);
+  border-bottom: 1px solid #8dc3f5;
+}
+
+
+footer {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.08rem;
+  margin-top: 4rem;
+  padding: 1rem 0;
+  /* border-top: 1px solid #ccc; */
+  text-align: center;
+}
+
+/* スマホ用CSS */
+@media screen and (max-width:480px){
+  
+}
